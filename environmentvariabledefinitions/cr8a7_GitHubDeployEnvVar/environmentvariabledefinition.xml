@@ -1,4 +1,5 @@
 <environmentvariabledefinition schemaname="cr8a7_GitHubDeployEnvVar">
+  <defaultvalue>default value</defaultvalue>
   <displayname default="GitHub Deploy Env Var">
     <label description="GitHub Deploy Env Var" languagecode="1033" />
   </displayname>
