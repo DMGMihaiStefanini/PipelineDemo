@@ -1,0 +1,43 @@
+{
+  "properties": {
+    "connectionReferences": {},
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "60e9fd0c-2975-4960-abed-00fd7f90cf0f"
+          },
+          "type": "Request",
+          "kind": "Button",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {},
+              "required": []
+            }
+          }
+        }
+      },
+      "actions": {
+        "Compose": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "053c2919-5ab3-41e7-bebe-a622ffc5570d"
+          },
+          "type": "Compose",
+          "inputs": "test"
+        }
+      }
+    },
+    "templateName": null
+  },
+  "schemaVersion": "1.0.0.0"
+}
